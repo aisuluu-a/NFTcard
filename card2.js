@@ -140,7 +140,7 @@ const nft = [
                 <p style="  color: white;
                             font-weight: 400;
                 "> Creation of 
-                        <a style="font-weight: 400;
+                        <a href="/" style="font-weight: 400;
                                 color: hsl(178, 100%, 50%);
                                 ">${item.author}
                         </a>
