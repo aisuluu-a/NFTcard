@@ -1,3 +1,6 @@
+
+  
+
 const nft = [
     {
       id: 1,
@@ -67,6 +70,7 @@ const nft = [
         background-color: hsl(217, 54%, 11%);
         align-items: center;
         vertical-align: middle;
+        //height: 100vh;
   `;
   
   window.addEventListener("load", function () {
@@ -151,8 +155,8 @@ const nft = [
   
     displayNfts = displayNfts.join("");
     nftsInner.innerHTML = displayNfts  ;
-    alert(`Я оцениваю свою работу на 200 баллов` )
+    
   }
-  
+  alert(`Я оцениваю свою работу на 200 баллов` )
 
   

@@ -29,20 +29,25 @@ window.addEventListener("load", function () {
     card.append(container);
     container.append(img, cardTitle, cardDescr, cardCompany, author );
 
-  //  container.classList.add("container");
+  card.id = "wrapper";
 
 
   body.style.cssText = `
         background-color: hsl(217, 54%, 11%);
         align-items: center;
         vertical-align: middle;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100vh;
+        
   `;
 
     card.style.cssText = `
     
     background-color: hsl(216, 50%, 16%);
     width: 300px;
-    margin: 50px auto;
+    
     border-radius: 10px;
     box-shadow:
     0 0 0 21px hsl(218, 54%, 11%);
@@ -198,5 +203,8 @@ descr2.style.cssText = `
   
   `;
   });
+
+  alert(`Я оцениваю свою работу на 200 баллов` )
+
 
   
