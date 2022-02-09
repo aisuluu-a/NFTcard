@@ -157,6 +157,6 @@ const nft = [
     nftsInner.innerHTML = displayNfts  ;
     
   }
-  alert(`Я оцениваю свою работу на 200 баллов` )
+  alert(`Я оцениваю свою работу на 110 баллов` )
 
   
